@@ -5,6 +5,9 @@ apply plugin: 'java'
 
 sourceCompatibility = 1.8
 
+apply plugin:'application'
+mainClassName = "com.coderskitchen.jgroups.JGroupsLeaderElectionExample"
+
 repositories {
     mavenCentral()
 }
